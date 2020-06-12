@@ -1,0 +1,12 @@
+Alexandrite precious 2 500,0 translucent
+Aquamarine semiprecious 4 9684,0 translucent
+Diamond precious 1 85600,0 transparent
+Amethyst semiprecious 6 8750,0 transparent
+Topaz semiprecious 8 26700,5 transparent
+Sapphire precious 3 1200,5 translucent
+Garnet semiprecious 10 1980,5 opaque
+Citrine semiprecious 8 17600,0 transparent
+Emerald precious 3 850,3 transparent
+Chrysolite semiprecious 7 13200,8 transparent
+Agate semiprecious 12 11500,0 translucent
+Ruby precious 5 10800,0 transparent
