@@ -13,7 +13,6 @@
 //Провести сортировку камней ожерелья на основе ценности.
 //Найти камни в ожерелье, соответствующие заданному диапазону параметров прозрачности.
 
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -39,10 +38,10 @@ public class Necklace extends ArrayList<Stone> {
             while (scanner.hasNext()) {
                 necklace.add(new Stone(scanner.next(), scanner.next(), scanner.nextByte(), scanner.nextFloat(), scanner.next()));
             }
+            scanner.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        //System.out.println(necklace);
 
         necklace.removeIf(s -> s.getKarat() < 2 | s.getKarat() > 8);
         Collections.sort(necklace);
